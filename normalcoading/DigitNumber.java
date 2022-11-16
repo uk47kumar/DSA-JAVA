@@ -2,7 +2,7 @@ package com.normalcoading;
 
 import java.util.Scanner;
 
-public class digitnumber {
+public class DigitNumber {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
