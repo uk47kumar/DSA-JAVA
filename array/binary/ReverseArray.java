@@ -23,6 +23,26 @@ public class ReverseArray {
         for (int i=0; i<numbers.length; i++){
             System.out.print(numbers[i]+ " ");
         }
+
+        // Changing of an array...
+
+        int first[] = {3,5,3,45,5};
+
+        int second[] = first;
+
+        // Changing the 0th index of an array...
+        second[0] = 4;
+
+        // printing first array
         System.out.println();
+        for(int element : first){
+            System.out.print(element+" ");
+        }
+
+        // printing second array
+        System.out.println();
+        for(int element : second){
+            System.out.print(element+" ");
+        }
     }
 }

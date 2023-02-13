@@ -3,6 +3,7 @@ package com.array;
 public class TrappedRainWater {
 
     public static int trapped(int height[]){
+
         int n = height.length;
         // creating two auxiliary array
 

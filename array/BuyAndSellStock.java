@@ -15,7 +15,12 @@ public class BuyAndSellStock {
                 buyPrice = prices[i];
             }
         }
-        return maxProfit;
+        if(maxProfit > 0){
+            return maxProfit;
+        }
+        else {
+            return -1;
+        }
     }
 
     public static void main(String[] args) {
